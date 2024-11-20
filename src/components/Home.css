@@ -1,0 +1,88 @@
+.home {
+    padding: 20px;
+}
+
+.welcome-section {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.featured-cakes {
+    text-align: center;
+}
+
+.cake-list {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.cake-card {
+    width: 30%;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cake-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cake-card h3 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.cake-card p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.cake-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cake-card .btn:hover {
+    background-color: #0056b3;
+}
+
+.cake-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+
+.browse-cakes-box {
+    display: inline-block;
+    border: 2px solid #007BFF;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f8ff;
+    margin-top: 20px;
+}
+
+.browse-cakes-box .btn {
+    background-color: #007BFF;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 25px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.browse-cakes-box .btn:hover {
+    background-color: #0056b3;
+}
